@@ -7,7 +7,7 @@ const TOKEN = '7255332775:AAFssemVhMBYLvvTfcPW-l3HSwyFKgkeVCQ';
 const bot = new TelegramBot(TOKEN, { polling: false });
 
 // Set webhook URL (update it with your Vercel domain after deployment)
-const WEBHOOK_URL = `https://<your-vercel-project>.vercel.app/api/bot`;
+const WEBHOOK_URL = `https://ogg-git-main-bharat99978s-projects.vercel.app/`;
 
 // Set webhook
 bot.setWebHook(WEBHOOK_URL)
